@@ -1,13 +1,45 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+  padding: 15px;
+  margin: 15px;
 }
+
+.form{
+  justify-content: center;
+  background-color: aqua;
+  text-align: center;
+  width: 250px;
+  padding: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+}
+
+
+div.buttons{
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 25%;
+  
+}
+ button#login-btn{
+  margin: 10px;
+  background-color: plum;
+  border-radius: 25%;
+  width: 100%;
+  height: 25px;
+ }
+
+ button#create-btn{
+  margin: 10px;
+  background-color: plum;
+  border-radius: 25%;
+  width: 100%;
+  height: 25px;
+ }
